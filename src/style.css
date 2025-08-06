@@ -5,5 +5,38 @@ body{
     --color-purple3: #D0D7EC;
     --color-rosita: #E7EBF5;
     --color-white:  #FFFFFF;
+    background-color: var(--color-rosita);
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+  color: var(--color-rosita);
+  text-align: center;
+  font-size: 2rem;
+  width: 100%;
+  background-color: var(--color-purple2);
+}
+p{
+  padding: 10px;
+  color: #333;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  height: 150px;
+  gap: 5px;
+  padding-top:10px;
+}
+
+
+#resultado{ 
+  color: #333;
 }
 

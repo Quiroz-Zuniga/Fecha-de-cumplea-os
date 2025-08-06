@@ -3,19 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/style.css">
     <title>Días para mi cumpleaños</title>
   </head>
   <body>
     <div id="app"></div>
     <h1>Calcula los dias de tu cumpleaños</h1>
     <p class="date"></p>
-    <div class="container">
-        <p>hecho para calcular los días restantes de tu cumpleaños</p>
+     <p>hecho para calcular los días restantes de tu cumpleaños</p>
         <p>Escribe el día y el mes de tu cumpleaños</p>
-        <input type="number" id="dia" placeholder="Día">
-        <input type="number" id="mes" placeholder="Mes">
-        <button id="calcular">Calcular</button>
-        <p id="resultado" style="display:none;"></p>
+    <div class="container">
+      <div>
+          <input class="item" type="number" id="dia" placeholder="Día">
+          <input class="item" type="number" id="mes" placeholder="Mes">
+          <button class="item" id="calcular">Calcular</button>
+          <p id="resultado" style="display:none;"></p>
+        </div>
     </div>
     <script type="module" src="/src/main.js"></script>
   </body>

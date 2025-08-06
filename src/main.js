@@ -34,7 +34,11 @@ function diasHastaCumpleaños(dia, mes) {
         resultado.style.display = "block";
         resultado.textContent = "!Mañana es tu cumpleaños!";
         return;
-    }else{
+    }else if(dia || mes == NaN ){
+      resultado.style.display = "block"
+      resultado.textContent = "Porfavor ingresa datos validos "
+    }
+    else{
         resultado.style.display = "block";
         resultado.textContent = `Faltan ${diferenciaDias} días para tu cumpleaños`;
         return;
